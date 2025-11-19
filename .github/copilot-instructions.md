@@ -1,0 +1,1 @@
+- This repository hosts an R package that only provides C++ headers for other packages to use.

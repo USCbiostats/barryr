@@ -1,0 +1,17 @@
+Package: barry
+Type: Package
+Title: Your Go-To Motif Accountant
+Version: 0.2.1
+Depends: R (>= 4.1.0)
+Authors@R: c(
+  person(given="George", family="Vega Yon", role=c("aut", "cre"),
+  email="g.vegayon@gmail.com", comment = c(ORCID = "0000-0002-3171-0844"))
+  )
+Description: Headers for the C++ library "barry", your go-to motif accountant.
+URL: https://github.com/UofUEpiBio/barryr,
+    https://uofuepibio.github.io/barryr/
+BugReports: https://github.com/UofUEpiBio/barryr/issues
+License: MIT + file LICENSE
+RoxygenNote: 7.3.3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
