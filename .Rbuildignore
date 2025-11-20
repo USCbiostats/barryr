@@ -3,3 +3,6 @@ Makefile
 \.pre-commit-config\.yaml
 \.github
 CODE_OF_CONDUCT\.md
+^cran-comments\.md$
+^examples$
+^.vscode$
