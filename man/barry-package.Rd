@@ -10,7 +10,7 @@ Provides C++ header-only files for the barry library, which is a template
 library for counting sufficient statistics on binary arrays and building
 discrete exponential-family models. The barry library includes tools for
 sparse arrays, user-defined count statistics, support set constraints,
-powerset generation, and modules for Discrete Exponential Family Models
+power set generation, and modules for Discrete Exponential Family Models
 (DEFMs) and network statistics.
 }
 \details{
@@ -27,9 +27,9 @@ Models (ERGMs) and other network statistics.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/UofUEpiBio/barryr}
-  \item \url{https://uofuepibio.github.io/barryr/}
-  \item Report bugs at \url{https://github.com/UofUEpiBio/barryr/issues}
+  \item \url{https://github.com/USCbiostats/barryr}
+  \item \url{https://uscbiostats.github.io/barryr/}
+  \item Report bugs at \url{https://github.com/USCbiostats/barryr/issues}
 }
 
 }

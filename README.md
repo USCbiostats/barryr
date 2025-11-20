@@ -30,13 +30,13 @@ his doctoral dissertation ["Essays on Bioinformatics and Social Network Analysis
 
 The barry C++ library includes the following key features:
 
-* **Sparse arrays**: Efficient handling of sparse binary arrays
-* **User-defined count statistics**: Flexible framework for custom statistics
-* **Support set constraints**: User-defined constraints on the support set
-* **Powerset generation**: Generation of binary array powersets
-* **Discrete Exponential Family Models (DEFMs)**: Module for building discrete exponential-family models
-* **Pooled DEFMs**: Support for pooled data models
-* **Network counters**: Statistics for network analysis including ERGMs (Exponential Random Graph Models)
+* **Sparse arrays**: Efficient handling of sparse binary arrays.
+* **User-defined count statistics**: Flexible framework for custom statistics.
+* **Support set constraints**: User-defined constraints on the support set.
+* **Power set generation**: Generation of binary array power sets.
+* **Discrete Exponential Family Models (DEFMs)**: Module for building discrete exponential-family models.
+* **Pooled DEFMs**: Support for pooled data models.
+* **Network counters**: Statistics for network analysis including ERGMs (Exponential Random Graph Models).
 
 ## Installation
 
@@ -127,7 +127,7 @@ count_network_stats(n, source, target)
 More information about the barry C++ library can be found:
 
 * [barry C++ library repository](https://github.com/USCbiostats/barry)
-* [Doxygen documentation](https://uscbiostats.github.io/barry)
+* [Doxygen documentation](https://uscbiostats.github.io/barry/)
 * [PDF documentation](https://github.com/USCbiostats/barry/blob/gh-pages/latex/refman.pdf)
 
 ## See Also
