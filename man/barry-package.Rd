@@ -4,22 +4,22 @@
 \name{barry-package}
 \alias{barry}
 \alias{barry-package}
-\title{barry: C++ Headers for the barry Library}
+\title{barry: 'C++' Headers for the 'barry' Library}
 \description{
-Provides C++ header-only files for the barry library, which is a template
+Provides 'C++' header-only files for the 'barry' library, which is a template
 library for counting sufficient statistics on binary arrays and building
-discrete exponential-family models. The barry library includes tools for
+discrete exponential-family models. The 'barry' library includes tools for
 sparse arrays, user-defined count statistics, support set constraints,
 power set generation, and modules for Discrete Exponential Family Models
 (DEFMs) and network statistics.
 }
 \details{
-This package follows the same approach as the BH package which provides
-Boost headers for R. To use barry in your R package, add \code{LinkingTo: barry}
+This package follows the same approach as the 'BH' package which provides
+'Boost' headers for R. To use 'barry' in your R package, add \code{LinkingTo: barry}
 to your DESCRIPTION file. The headers will then be available for inclusion
-in your C++ code via \verb{#include <barry/barry.hpp>}.
+in your 'C++' code via \verb{#include <barry/barry.hpp>}.
 
-The barry library was created by Dr. George G. Vega Yon as part of his
+The 'barry' library was created by Dr. George G. Vega Yon as part of his
 doctoral dissertation and provides a general framework for building discrete
 exponential-family models, particularly useful for Exponential Random Graph
 Models (ERGMs) and other network statistics.
