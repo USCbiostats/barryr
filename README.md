@@ -4,10 +4,8 @@
 
 [![CRAN status](https://www.r-pkg.org/badges/version/barry)](https://CRAN.R-project.org/package=barry)
 [![R-CMD-check](https://github.com/USCbiostats/barryr/actions/workflows/r.yml/badge.svg)](https://github.com/USCbiostats/barryr/actions/workflows/r.yml)
-[![CRANlogs
-downloads](https://cranlogs.r-pkg.org/badges/grand-total/barry.png)](https://cran.r-project.org/package=barry)
-[![License:
-MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/USCbiostats/barryr/blob/master/LICENSE.md)
+[![CRANlogs downloads](https://cranlogs.r-pkg.org/badges/grand-total/barry)](https://cran.r-project.org/package=barry)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/USCbiostats/barryr/blob/master/LICENSE.md)
 [![codecov](https://codecov.io/gh/USCbiostats/barry/graph/badge.svg?token=ZB8FVLI7GN)](https://app.codecov.io/gh/USCbiostats/barry)
 [![status](https://tinyverse.netlify.app/badge//barry)](https://CRAN.R-project.org/package=barry)
 
