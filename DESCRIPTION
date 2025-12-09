@@ -5,7 +5,11 @@ Version: 0.2.1
 Depends: R (>= 4.1.0)
 Authors@R: c(
   person(given="George", family="Vega Yon", role=c("aut", "cre"),
-  email="g.vegayon@gmail.com", comment = c(ORCID = "0000-0002-3171-0844"))
+  email="g.vegayon@gmail.com", comment = c(ORCID = "0000-0002-3171-0844")),
+  person("U.S. Army Medical Research Acquisition Activity", role = "fnd",
+  comment = "ORION project, Award #W81XWH1910615"),
+  person("National Cancer Institute", role = "fnd",
+  comment = "Grant #1P01CA196596")
   )
 Description: Provides the 'C++' header-only library 'barry' for use in R packages. 
  'barry' is a 'C++' template library for counting sufficient statistics on binary 
