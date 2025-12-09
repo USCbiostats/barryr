@@ -36,5 +36,11 @@ Useful links:
 \author{
 \strong{Maintainer}: George Vega Yon \email{g.vegayon@gmail.com} (\href{https://orcid.org/0000-0002-3171-0844}{ORCID})
 
+Other contributors:
+\itemize{
+  \item U.S. Army Medical Research Acquisition Activity (ORION project, Award #W81XWH1910615) [funder]
+  \item National Cancer Institute (IMAGE project, Grant #1P01CA196596) [funder]
+}
+
 }
 \keyword{internal}

@@ -152,6 +152,9 @@ By contributing to this project, you agree to abide by its terms.
 
 This work was supported by:
 
-- The ORION project, supported by the U.S. Army Medical Research Acquisition Activity Award, Contact #W81XWH1910615. This study was approved by the University of Utah Institutional Review Board (IRB #137948) and at each of the military treatment facility sites.
+- The ORION project, supported by the U.S. Army Medical Research
+  Acquisition Activity Award, Contact \#W81XWH1910615. This study was
+  approved by the University of Utah Institutional Review Board (IRB
+  \#137948) and at each of the military treatment facility sites.
 
-- National Cancer Institute Grant #1P01CA196596.
+- National Cancer Institute Grant \#1P01CA196596.
