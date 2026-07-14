@@ -1,7 +1,7 @@
 Package: barry
 Type: Package
 Title: Your Go-to Motif Accountant
-Version: 0.2.1
+Version: 0.2.2
 Depends: R (>= 4.1.0)
 Authors@R: c(
   person(given="George", family="Vega Yon", role=c("aut", "cre"),
