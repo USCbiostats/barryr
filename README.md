@@ -9,6 +9,16 @@
 [![codecov](https://codecov.io/gh/USCbiostats/barry/graph/badge.svg?token=ZB8FVLI7GN)](https://app.codecov.io/gh/USCbiostats/barry)
 [![status](https://tinyverse.netlify.app/badge//barry)](https://CRAN.R-project.org/package=barry)
 
+
+<!-- how-to-cite -->
+> [!NOTE]
+> **How to cite barry.** If you use **barry** in published work, please cite it:
+>
+> Vega Yon G. *barry: Your Go-to Motif Accountant*. doi:[10.32614/CRAN.package.barry](https://doi.org/10.32614/CRAN.package.barry)
+>
+> Run `citation("barry")` in R for the BibTeX entry.
+<!-- how-to-cite -->
+
 ## Synopsis
 
 This R package provides [C++

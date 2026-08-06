@@ -20,4 +20,7 @@
 #' Models (ERGMs) and other network statistics.
 #'
 #' @keywords internal
+#' @section How to cite:
+#' If you use \pkg{barry} in published work, please cite it. Run
+#' \code{citation("barry")} in R for the full entry.
 "_PACKAGE"
