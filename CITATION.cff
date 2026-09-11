@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: 'To cite package "barry" in publications use:'
+type: software
+license: MIT
+title: 'barry: Your Go-to Motif Accountant'
+version: 0.2.2
+doi: 10.32614/CRAN.package.barry
+abstract: Provides the 'C++' header-only library 'barry' for use in R packages. 'barry'
+  is a 'C++' template library for counting sufficient statistics on binary arrays
+  and building discrete exponential-family models. It provides tools for sparse arrays,
+  user-defined count statistics, support set constraints, power set generation, and
+  includes modules for Discrete Exponential Family Models (DEFMs) and network statistics.
+  By placing these headers in this package, we offer an efficient distribution system
+  for CRAN as replication of this code in the sources of other packages is avoided.
+  This package follows the same approach as the 'BH' package which provides 'Boost'
+  headers for R packages.
+authors:
+- family-names: Vega Yon
+  given-names: George
+  email: g.vegayon@gmail.com
+  orcid: https://orcid.org/0000-0002-3171-0844
+preferred-citation:
+  type: manual
+  title: 'barry: Your Go-to Motif Accountant'
+  authors:
+  - family-names: Vega Yon
+    given-names: George
+    orcid: https://orcid.org/0000-0002-3171-0844
+    email: g.vegayon@gmail.com
+  year: '2026'
+  notes: R package version 0.2.2
+  url: https://github.com/USCbiostats/barryr
+  doi: 10.32614/CRAN.package.barry
+repository: https://CRAN.R-project.org/package=barry
+repository-code: https://github.com/USCbiostats/barryr
+url: https://uscbiostats.github.io/barryr/
+contact:
+- family-names: Vega Yon
+  given-names: George
+  email: g.vegayon@gmail.com
+  orcid: https://orcid.org/0000-0002-3171-0844
