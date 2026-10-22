@@ -1,4 +1,12 @@
-# barry 0.2.2.9000 (development version)
+# barry 0.2.2
+
+* Added `Model::likelihood_total_grad()` and `Model::likelihood_total_hess()`
+  for the exact gradient and Hessian of the total log-likelihood, and
+  `Model::likelihood_total_and_grad()` to compute the log-likelihood and
+  gradient together. The Hessian is returned as a row-major vector.
+  These methods use numerically stable, max-shifted exponentials and do
+  not modify the model or its cached normalizing constants
+  ([USCbiostats/barry#27](https://github.com/USCbiostats/barry/pull/27)).
 
 * Fixed `defm_motif_parser` reading covariate names as motif terms: a
   formula such as `{y0} > {y0} x Day1` silently added `y1` to the motif.
@@ -11,9 +19,6 @@
 * Fixed support-vs-array index confusion in `Model::sample` and
   `DEFM::simulate`, which produced wrong draws when simulating
   (USCbiostats/barry#25).
-
-
-# barry 0.2.2
 
 * Fixed catastrophic hash collisions in `FreqTable::make_hash` and `vecHasher`:
   hashes of small-integer statistics had no entropy in their low bits, so
