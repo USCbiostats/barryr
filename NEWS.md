@@ -1,4 +1,4 @@
-# barry 0.2.2
+# barry 0.3.0
 
 * Added `Model::likelihood_total_grad()` and `Model::likelihood_total_hess()`
   for the exact gradient and Hessian of the total log-likelihood, and
@@ -19,6 +19,9 @@
 * Fixed support-vs-array index confusion in `Model::sample` and
   `DEFM::simulate`, which produced wrong draws when simulating
   (USCbiostats/barry#25).
+
+
+# barry 0.2.2
 
 * Fixed catastrophic hash collisions in `FreqTable::make_hash` and `vecHasher`:
   hashes of small-integer statistics had no entropy in their low bits, so

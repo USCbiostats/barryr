@@ -3,7 +3,7 @@ message: 'To cite package "barry" in publications use:'
 type: software
 license: MIT
 title: 'barry: Your Go-to Motif Accountant'
-version: 0.2.2
+version: 0.3.0
 doi: 10.32614/CRAN.package.barry
 abstract: Provides the 'C++' header-only library 'barry' for use in R packages. 'barry'
   is a 'C++' template library for counting sufficient statistics on binary arrays
@@ -28,7 +28,7 @@ preferred-citation:
     orcid: https://orcid.org/0000-0002-3171-0844
     email: g.vegayon@gmail.com
   year: '2026'
-  notes: R package version 0.2.2
+  notes: R package version 0.3.0
   url: https://github.com/USCbiostats/barryr
   doi: 10.32614/CRAN.package.barry
 repository: https://CRAN.R-project.org/package=barry
