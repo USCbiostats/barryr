@@ -15,6 +15,9 @@ groups:
       - man/
       - examples/
       - src/
-    files: [DESCRIPTION, NEWS.md]
-    preset: r-package
+    rules:
+      - preset: r-package
+        files: [DESCRIPTION]
+      - preset: r-news-titled
+        files: [NEWS.md]
     consistency: identical
