@@ -1,0 +1,23 @@
+version: 1
+
+# Permit several pull requests to be released under the existing development
+# version; require a new version after that version has been released.
+defaults:
+  unchanged-policy: release
+
+groups:
+  barry:
+    paths:
+      - DESCRIPTION
+      - NAMESPACE
+      - R/
+      - inst/
+      - man/
+      - examples/
+      - src/
+    rules:
+      - preset: r-package
+        files: [DESCRIPTION]
+      - preset: r-news-titled
+        files: [NEWS.md]
+    consistency: identical

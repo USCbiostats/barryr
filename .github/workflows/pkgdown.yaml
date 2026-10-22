@@ -69,7 +69,7 @@ jobs:
       # Post comment with link to artifact on PRs
       - name: Post artifact link to PR
         if: github.event_name == 'pull_request'
-        uses: CDCgov/cfa-actions/post-artifact@v1.2.0
+        uses: CDCgov/cfa-actions/post-artifact@v1.8.0
         with:
           artifact-name: pkgdown-site
           gh-token: ${{ secrets.GITHUB_TOKEN }}
